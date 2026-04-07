@@ -4,35 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>İsmail Şimşek Yazılım</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 60px auto;
-            max-width: 800px;
-            line-height: 1.8;
-            text-align: center;
+            margin: 0;
+            background: #f5f5f5;
             color: #333;
+            text-align: center;
         }
-        h1 { color: #1b5e20; font-size: 2.8em; margin-bottom: 10px; }
-        h2 { color: #2e7d32; }
-        p { font-size: 1.2em; margin: 25px auto; }
-        .footer { margin-top: 80px; color: #555; font-size: 1em; }
+
+        header {
+            background: #1b5e20;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.8em;
+        }
+
+        h2 {
+            color: #2e7d32;
+            margin-top: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.7;
+        }
+
+        .apps {
+            margin-top: 30px;
+        }
+
+        .app-card {
+            background: #e8f5e9;
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        a {
+            color: #1b5e20;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
     </style>
 </head>
+
 <body>
+
+<header>
     <h1>İsmail Şimşek</h1>
-    <h2>Android Uygulama Geliştirici</h2>
-    
-    <p>İsmail Şimşek Yazılım'ın resmi geliştirici sitesidir.</p>
-    
-    <h2>Hakkımızda</h2>
-    <p>Kullanıcı odaklı, kaliteli ve ücretsiz faydalı Android uygulamaları geliştiriyorum.</p>
-    
+    <p>Android Uygulama Geliştirici</p>
+</header>
+
+<div class="container">
+
+    <h2>Hakkımda</h2>
+    <p>
+        İsmail Şimşek Yazılım olarak kullanıcı odaklı, güvenli ve kaliteli Android uygulamaları geliştiriyorum.
+        Tüm uygulamalarım Google Play politikalarına uygun şekilde hazırlanır.
+    </p>
+
+    <h2>Uygulamalarım</h2>
+    <div class="apps">
+
+        <div class="app-card">
+            <p><strong>Milyonersen</strong></p>
+            <p>Bilgi yarışması uygulaması</p>
+            <a href="#">Google Play'de Gör</a>
+        </div>
+
+        <div class="app-card">
+            <p><strong>Kur'an-ı Kerim Uygulaması</strong></p>
+            <p>Okuma ve dinleme özellikli dini uygulama</p>
+            <a href="#">Google Play'de Gör</a>
+        </div>
+
+        <div class="app-card">
+            <p><strong>Spectra Magnetic Sensor</strong></p>
+            <p>Manyetik alan ölçüm aracı</p>
+            <a href="#">Google Play'de Gör</a>
+        </div>
+
+    </div>
+
+    <h2>Gizlilik Politikası</h2>
+    <p>
+        Uygulamalarımız kullanıcı verilerini korumayı taahhüt eder.
+        <br>
+        <a href="#">Gizlilik Politikasını Gör</a>
+    </p>
+
     <h2>İletişim</h2>
     <p>E-posta: ismailsimsekyazilim2107@gmail.com</p>
-    
-    <div class="footer">
-        <p><strong>© 2026 İsmail Şimşek Yazılım</strong></p>
-    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 İsmail Şimşek Yazılım - Tüm Hakları Saklıdır</p>
+</footer>
+
 </body>
 </html>
